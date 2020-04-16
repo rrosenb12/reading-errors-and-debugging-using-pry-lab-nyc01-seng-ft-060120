@@ -1,11 +1,12 @@
 # don't forget to add: require 'pry'
 require 'pry'
 
-string = [" ", " ", " ", " ", " ", " ", " "]
+string = ["s", "u", "r", "p", "i", "s", "e"]
 
 def snake_it_up(string)
   if string[0] == "s"
-    10 * "s" + string
+    10.times do
+      string.push("s")
   else
     string
   end
