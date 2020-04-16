@@ -1,7 +1,7 @@
 # don't forget to add: require 'pry'
 require 'pry'
 
-string = ["s", " ", " "]
+string = ["s", "a", "d"]
 
 def snake_it_up(string)
   if string[0] == "s"
