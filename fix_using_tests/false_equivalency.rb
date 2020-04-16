@@ -14,10 +14,8 @@ end
 def selection(num)
   if num = 1
     statement = "YUM YUM MUNCH MUNCH MUNCH"
-    return statement
   elsif num = 2
      statement_2 = "HAM HAM HAM IN MY TUMMY"
-     return statement_2
   end
 end
 
