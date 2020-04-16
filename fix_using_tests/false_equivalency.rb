@@ -2,7 +2,7 @@
 require 'pry'
 
 def get_user_input
-  user_input = gets.chomp.to_i
+  num = gets.chomp.to_i
 end
 
 def prompt_user
@@ -21,5 +21,5 @@ end
 
 def runner
   prompt_user
-  selection(user_input)
+  selection(num)
 end
