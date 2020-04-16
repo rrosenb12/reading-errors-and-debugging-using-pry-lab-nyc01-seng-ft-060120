@@ -13,9 +13,11 @@ end
 
 def selection(num)
   if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
+    statement = "YUM YUM MUNCH MUNCH MUNCH"
+    return statement
   elsif num = 2
-     "HAM HAM HAM IN MY TUMMY"
+     statement_2 = "HAM HAM HAM IN MY TUMMY"
+     return statement_2
   end
   binding.pry
 end
