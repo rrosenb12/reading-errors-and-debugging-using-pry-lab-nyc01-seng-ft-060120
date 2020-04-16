@@ -18,8 +18,8 @@ def selection(num)
   elsif num = 2
      statement_2 = "HAM HAM HAM IN MY TUMMY"
      return statement_2
-     binding.pry
   end
+   binding.pry
 end
 
 def runner
