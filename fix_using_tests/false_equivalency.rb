@@ -19,7 +19,6 @@ def selection(num)
      statement_2 = "HAM HAM HAM IN MY TUMMY"
      return statement_2
   end
-  binding.pry
 end
 
 def runner
